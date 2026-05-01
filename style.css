@@ -16,3 +16,12 @@ p {
     text-align: center;
     font-size: large;
 }
+
+.game-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    border-radius: 25%;
+}
