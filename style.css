@@ -1,27 +1,29 @@
-body {
+body { /* Background color for the entire page */
     background-color:lightblue;
+}
 
-h1 {
+h1 { /* Font and text alignment for the main heading */
     font-family: verdana;
     text-align: center;
 }
 
-h2 { 
+h2 { /* Font and text alignment for the secondary heading */
     font-family: verdana;
     text-align: center;
 }
 
-p {
+p { /* Font and text alignment for the game list text */
     font-family: verdana;
     text-align: center;
     font-size: large;
+    font-weight: bold;
 }
 
-.game-list {
+.game-list { /* Styles for the game list container */
     display: flex;
     flex-wrap: wrap;
 }
 
-img {
+img { /* Rounded corners for all images */
     border-radius: 25%;
 }
